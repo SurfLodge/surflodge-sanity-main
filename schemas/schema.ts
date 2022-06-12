@@ -9,6 +9,7 @@ import fantomToken from './fantomToken';
 import rinkebyToken from './rinkebyToken';
 import { lbp } from './lbp';
 import optimismToken from './optimismToken';
+import auroraToken from './auroraToken';
 
 // Then we give our schema to the builder and provide the result to Sanity
 export default createSchema({
@@ -21,6 +22,7 @@ export default createSchema({
         fantomToken,
         rinkebyToken,
         optimismToken,
+        auroraToken,
         lbp,
         configFeaturedPool,
         configNewsItem,
